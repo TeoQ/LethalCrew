@@ -79,7 +79,7 @@ namespace LethalCrew.Patches
 		[HarmonyPatch(typeof(MaskedPlayerEnemy), nameof(MaskedPlayerEnemy.KillEnemy))]
 		static void KillMaskedPlayerPatch()
 		{
-			RewardEnemyKill(LethalCrew.configMaskedPlayerReward.Value, "a Nutcracker");
+			RewardEnemyKill(LethalCrew.configMaskedPlayerReward.Value, "a FRIEND");
 		}
 
 		// ___ Patching DOG  ___ //
